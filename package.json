@@ -1,0 +1,16 @@
+{
+  "name": "cypress-front-end-basic",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "cypress:open": "cypress open",
+    "test": "cypress run"
+  },
+  "dependencies": {
+    "express": "^4.19.0"
+  },
+  "devDependencies": {
+    "cypress": "^13.8.0"
+  }
+}
